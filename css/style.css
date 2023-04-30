@@ -229,3 +229,19 @@ body {
 #promo {
   display: none;
 }
+
+.pageup {
+  display: block;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+}
+.pageup img {
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
