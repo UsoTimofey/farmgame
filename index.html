@@ -11,44 +11,42 @@
     <title>farmgame</title>
 </head>
 <body>
-    <div class="promo" id="up">
+    <header class="promo" id="up">
         <div class="container">
-            <img src="icons/promo/logo.svg" alt="logo" class="promo__logo">
+            <img class="promo__logo" src="icons/promo/logo.svg" alt="logo">
             <div class="promo__wrapper">
-                <div class="block__descr">
+                <div class="promo__text">
                     <h1 class="promo__header">Legendary farm game in your hands</h1>                                                
-                    <h2 class="promo__subheader">Play as a Helga the Cow to protect your <br> animal friends from the Farmer</h2>
+                    <p class="promo__descr">Play as a Helga the Cow to protect your <br> animal friends from the Farmer</p>
                     <button data-modal="promo" class="btn">Play now</button>
                 </div>
-                <div class="block__img">
-                    <img src="img/promo/cow.png" alt="cow" class="promo__img">
-                </div>
+                <img class="promo__img" src="img/promo/cow.png" alt="cow">
             </div>
         </div>
-    </div>
+    </header>
     <section class="inside">
         <div class="container">
-            <h2 class="inside__header">What`s inside the game</h2>
+            <h2 class="title">What`s inside the game</h2>
             <div class="inside__wrapper">
                 <div class="inside__item">
-                    <img src="icons/inside/1.svg" alt="icon">
+                    <img class="inside__img" src="icons/inside/1.svg" alt="icon">
                     <div class="item__text">
-                        <h2 class="inside__item__header">Run as fast as you can</h2>
-                        <h2 class="inside__item__subheader">You have to be very fast to not be caught by the Farmer</h2>
+                        <h3 class="inside__header">Run as fast as you can</h3>
+                        <p class="inside__descr">You have to be very fast to not be caught by the Farmer</p>
                     </div>
                 </div>
                 <div class="inside__item">
-                    <img src="icons/inside/2.svg" alt="icon">
+                    <img class="inside__img" src="icons/inside/2.svg" alt="icon">
                     <div class="item__text">
-                        <h2 class="inside__item__header">Protect your animal friends</h2>
-                        <h2 class="inside__item__subheader">You have so many friends – protect them all!</h2>
+                        <h3 class="inside__header">Protect your animal friends</h3>
+                        <p class="inside__descr">You have so many friends – protect them all!</p>
                     </div>
                 </div>
                 <div class="inside__item">
-                    <img src="icons/inside/3.svg" alt="icon">
+                    <img class="inside__img" src="icons/inside/3.svg" alt="icon">
                     <div class="item__text">
-                        <h2 class="inside__item__header">Score as much points as you can</h2>
-                        <h2 class="inside__item__subheader">In the end this is all about points. Show your strength!</h2>
+                        <h3 class="inside__header">Score as much points as you can</h3>
+                        <p class="inside__descr">In the end this is all about points. Show your strength!</p>
                     </div>
                 </div>
             </div>
@@ -57,20 +55,16 @@
     <section class="animals">
         <div class="container">
             <div class="animals__inside">
-                <div class="block__descr">
-                    <div class="animals__header">More animals you save, closer your victory!</div>                                                              
-                    <div class="animals__subheader">Don`t miss the chance to make the <br> Farmer cry again. Animals, be strong!</div>
+                <div class="animals__text">
+                    <h2 class="title title_left">More animals you save, closer your victory!</h2>                                                              
+                    <p class="animals__descr">Don`t miss the chance to make the <br> Farmer cry again. Animals, be strong!</p>
                     <button data-modal="promo" class="btn">Play now</button>
-                </div>
-                <div class="block__img">
-                    <img src="img/animals/animal.svg" alt="animal" class="animals__img">
-                </div>
+                </div>               
+                <img src="img/animals/animal.svg" alt="animal" class="animals__img">                
             </div>
         </div>
     </section>
-    <footer class="footer">
-        <p>2030 Ⓒ All rights reserved</p>
-    </footer>
+    <footer class="footer">2030 Ⓒ All rights reserved</footer>
     <div class="overlay">
         <div class="modal" id="promo">
             <div class="modal__close">&times;</div>
